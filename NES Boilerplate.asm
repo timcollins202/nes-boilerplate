@@ -172,8 +172,7 @@ mainloop:
     BEQ mainloop
     STA lasttime        ;time has changed, so update lasttime
 
-    ;loop calls go here
-    JSR player_actions
+    ;loop calls go here - player_actions, etc.
 
     JMP mainloop
 .endproc
