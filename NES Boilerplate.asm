@@ -53,7 +53,7 @@ palette: .res 32        ;current palette buffer
 ; Include external files
 ;*****************************************************************
 .include "neslib.asm"         ;General Purpose NES Library
-;.include "constants.inc"      ;Game-specific constants
+.include "constants.inc"      ;Game-specific constants
 
 
 ;*****************************************************************
